@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<?xml-stylesheet type = "text/css" href = "css/hw02.css" ?>
+<!-- Created on 9/7/2017 by Jennifer Bartolome -->
+
+<ccsf>
+
+  <cnit131 id="cnit32111">
+    <course>Internet &amp; Intro to HTML</course>
+    <instructor>Ted Wheeler</instructor>
+  </cnit131>
+  <cnit131a id="cnit32123">
+    <course>XML &amp; JSON</course>
+    <instructor>Jane Addison</instructor>
+  </cnit131a>
+  <cnit132 id="cnit32145">
+    <course>CNIT 132 - Intermediate HTML &amp; CSS</course>
+    <instructor>Susan Oliver</instructor>
+  </cnit132>
+  <cnit133 id="cnit32167">
+    <course>CNIT 133 - Javascript</course>
+    <instructor>Kyle Broomer</instructor>
+  </cnit133>
+
+</ccsf>
