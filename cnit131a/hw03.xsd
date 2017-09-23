@@ -1,0 +1,12 @@
+<xsd:schema>
+  <xsd:element name="note">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="to" type="n:string"/>
+        <xsd:element name="from" type="n:string"/>
+        <xsd:element name="heading" type="n:string"/>
+        <xsd:element name="body" type="n:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
