@@ -1,12 +1,13 @@
-<xsd:schema>
-  <xsd:element name="note">
-    <xsd:complexType>
-      <xsd:sequence>
-        <xsd:element name="to" type="n:string"/>
-        <xsd:element name="from" type="n:string"/>
-        <xsd:element name="heading" type="n:string"/>
-        <xsd:element name="body" type="n:string"/>
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element>
-</xsd:schema>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="note">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="to" type="xs:string"/>
+        <xs:element name="from" type="xs:string"/>
+        <xs:element name="heading" type="xs:string"/>
+        <xs:element name="body" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
