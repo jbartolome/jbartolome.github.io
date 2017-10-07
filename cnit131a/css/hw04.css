@@ -1,0 +1,5 @@
+@namespace east url(https://www.ccsf.edu/east);
+@namespace west url(https://www.ccsf.edu/west);
+states { width: 300px; border: 2px solid red; margin: 0 auto; }
+east|name { display: block; width: 100%; background-color: skyblue; color: red; font-weight: bold; }
+west|name { display: block; width: 100%; background-color: yellow; color: blue; font-weight: bold; }
