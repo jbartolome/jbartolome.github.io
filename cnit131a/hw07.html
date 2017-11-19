@@ -18,22 +18,32 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">CNIT 131A</a>
+        <a class="navbar-brand" href="index.html">CNIT 131A</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="container">
-        <h1>CNIT 131A - Homework 7</h1>
-        <p>Under construction</p>
+        <h1>Homework 7: SVG Files in CNIT 131A</h1>
+        <p>The Scalable Vector Graphics (SVG) that I have used include a rectangle, circle, and triangle. 
+            The triangle features a gradient color fill that has been defined using the <strong>linearGradient</strong> tag 
+            within a pair of <strong>defs</strong> tags in the SVG file for the triangle. The gradient color fill is then referenced in the 
+            <strong>fill</strong> attribute of the <strong>polygon</strong> element.
+            I have selected to use the <strong>object</strong> tags and separate SVG files to embed these three shapes. 
+            I personally like to reuse my code, so in the instance I need to reuse any of these shapes in another file, 
+            I can easily embed them using the <strong>object</strong> tags. 
+        </p>
+        <object width = "400px" height="200px" type="image/svg+xml" data="svg/rect.svg"></object>
+        <object width = "200px" height="200px" type="image/svg+xml" data="svg/circle.svg"></object>
+        <object width = "200px" height="200px" type="image/svg+xml" data="svg/gradient.svg"></object>
     </div>
 
 

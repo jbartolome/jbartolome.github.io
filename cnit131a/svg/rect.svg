@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.1" baseProfile="full"
+xmlns="http://www.w3.org/2000/svg"
+width="400px" height="200px" viewBox="0,0,400,200">
+    <rect x="10" y="10" fill="yellow"
+    width="385px" height="185px"
+    stroke="blue" stroke-width="3px"/>
+</svg>
