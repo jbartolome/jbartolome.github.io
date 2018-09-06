@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Full-stack software developer with ten years of experience in the education technology sector and over fourteen years of technology industry experience in software architecture, development, design, deployment, and testing.">
+    <meta name="author" content="Jenn Bartolome">
+
+    <title>Dev - ipify - Jenn Bartolome</title>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <script type="application/javascript">
+      $(function() {
+        $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+          function(json) {
+            document.write("My public IP address is: ", json.ip);
+          }
+        );
+      });
+    </script>
+
+  </body>
+
+</html>
